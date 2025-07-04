@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://127.0.0.1:5500/MiniTutorial-Estevao.html -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Mini Tutorial HTML</title>
+<style type="text/css" id="operaUserStyle"></style></head><body>
+
+  <h1>Mini Tutorial HTML</h1>
+
+  
+  <h2> Tags Estruturais</h2>
+  
+  <p>O comando &lt;b&gt; deixa uma palavra em <b>Negrito</b></p>
+  <p>O comando &lt;i&gt; deixa uma palavra em <i>Itálico</i></p>
+  <p>O comando &lt;u&gt; <u>sublinha</u> uma palavra</p>
+  <p>O elemento &lt;br&gt;<br> quebra a<br> linha</p>
+  <p>O elemento <span style="color: blue;">&lt;span&gt;</span> permite aplicar estilo a uma parte específica do texto</p>
+  
+  <h2> Tags Semânticas</h2>
+
+  <p><strong>O comando &lt;strong&gt; da ênfase forte ao fragmento desejado</strong></p>
+        <p><em>O comando &lt;em&gt; da ênfase leve ao fragmento desejado</em></p>
+        <blockquote>
+            "A vida é aquilo que acontece enquanto você está ocupado fazendo outros planos."
+            <br>– John Lennon
+        </blockquote>
+        <p>Segundo<q>Aristóteles</q>, Somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito.</p>
+        <p>Você sabia que o polvo <abbr title=" tem três corações">tem três corações</abbr> e o sangue dele é azul?</p>
+        <p>Segundo o livro <cite>O Pequeno Príncipe</cite>, O essencial é invisível aos olhos.</p>
+        <p><dfn>Frontend</dfn> é o que seus usuários veem e inclui elementos visuais, como botões, caixas de seleção, gráficos e mensagens de texto.</p>
+        <p>Aula de Segunda-feira: <del>08:00 as 09:40</del> | Novo Horário: <ins>10:00 as 11:00</ins>
+        </p><p>
+            Para colocar um termo com valor elevado como em:
+            <br> A constante de Planck é aproximadamente 6,626 x 10<sup>-34</sup>Js.
+        </p>
+
+        <p>
+            Para colocar um termo com valor inferior como em:
+            <br>A fórmula do gás carbônico é CO<sub>2</sub>
+        </p>
+
+        <address>
+            Desenvolvido por: Estevão Nascimento
+            <br>email: enoifes@gmail.com
+        </address>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

@@ -1,0 +1,68 @@
+#instituicao{
+    background-color: #474747;
+}
+
+#boximg {
+    background-image: url(../Images/moroccan-flower.png);
+}
+
+.center {
+    text-align: center;
+}
+
+.caixa {
+    text-align: center;
+    background-color: #200092;
+    border: 10px solid #181818;
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 2px #030407;
+
+}
+
+body {
+    background-color: #397b96;
+    background-image: url(../Images/logoSerra.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 65px;
+    background-attachment: fixed;
+    padding: 0;
+}
+h1 {
+    font-family: cursive, Courier;
+    text-align: center;
+    color: #000000;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    margin: 5px;
+    padding: 5px;
+}
+p {
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+    color: #587b8d;
+}
+a {
+    color: #374151;
+    text-decoration: none;
+}
+a:hover:visited{
+    color: #3b5a3a;
+}
+a:hover{
+    color: #192080;
+    text-decoration: underline;
+}
+address {
+    margin-top: 15px;
+    text-decoration: none;
+    font-style: normal;
+    color: #000000;
+    background-color: #E5E7EB;
+}
